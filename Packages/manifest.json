@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.neuecc.unirx": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+    "com.sdt.core": "https://github.com/DavutSukhankuliev/packageCore.git?path=/Packages/com.sdt.core#v1.0.0",
     "com.unity.collab-proxy": "1.15.18",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.15",
@@ -41,5 +44,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Extenject",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.svermeulen.extenject"
+      ]
+    }
+  ]
 }

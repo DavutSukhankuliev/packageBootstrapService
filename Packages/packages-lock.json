@@ -1,5 +1,46 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "64792b672d35e43b3412fc74861f8bdbf41e3a6f"
+    },
+    "com.neuecc.unirx": {
+      "version": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7cce378b3f8c8943b4cac8e847bdbb8e2e1802d1"
+    },
+    "com.sdt.bootstrapservice": {
+      "version": "file:com.sdt.bootstrapService",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.sdt.core": "1.0.0",
+        "com.svermeulen.extenject": "9.2.0-stcf3",
+        "com.neuecc.unirx": "7.1.0",
+        "com.cysharp.unitask": "2.2.5"
+      }
+    },
+    "com.sdt.core": {
+      "version": "https://github.com/DavutSukhankuliev/packageCore.git?path=/Packages/com.sdt.core#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.svermeulen.extenject": "9.2.0-stcf3"
+      },
+      "hash": "423be6c2f1381ef6b667f4bcbc7dbf6937d694b3"
+    },
+    "com.svermeulen.extenject": {
+      "version": "9.2.0-stcf3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.18",
       "depth": 0,

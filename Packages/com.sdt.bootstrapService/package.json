@@ -1,0 +1,29 @@
+{
+  "name": "com.sdt.bootstrapservice",
+  "version": "1.0.0",
+  "displayName": "SDTBootstrapService",
+  "description": "Basic package for Bootstrap pattern implementation via Zenject and SDTCore",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "sdt",
+    "service",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "com.sdt.core": "1.0.0",
+    "com.svermeulen.extenject": "9.2.0-stcf3",
+    "com.neuecc.unirx": "7.1.0",
+    "com.cysharp.unitask": "2.2.5"
+  },
+  "samples": [
+    {
+      "displayName": "BootstrapServiceDemo",
+      "description": "The sample of bootstrapService",
+      "path": "Samples~/BootstrapServiceDemo"
+    }
+  ]
+}

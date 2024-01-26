@@ -5,9 +5,9 @@
   "description": "Basic package for Bootstrap pattern implementation via Zenject and SDTCore",
   "unity": "2019.1",
   "unityRelease": "0b5",
-  "documentationUrl": "",
-  "changelogUrl": "",
-  "licensesUrl": "",
+  "documentationUrl": "https://github.com/DavutSukhankuliev/packageBootstrapService.git?path=/Packages/com.sdt.bootstrapService/Documentation~/SDTCore.md#v1.0.0",
+  "changelogUrl": "https://github.com/DavutSukhankuliev/packageBootstrapService.git?path=/Packages/com.sdt.bootstrapService/CHANGELOG.md#v1.0.0",
+  "licensesUrl": "https://github.com/DavutSukhankuliev/packageBootstrapService.git?path=/Packages/com.sdt.bootstrapService/LICENSE.md#v1.0.0",
   "keywords": [
     "sdt",
     "service",
